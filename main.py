@@ -11,7 +11,7 @@ from telegram.ext import (
     ContextTypes,
     CallbackQueryHandler,
 )
-from pymorphy2 import MorphAnalyzer
+from pymorphy3 import MorphAnalyzer
 from dotenv import load_dotenv
 
 # Настройка логирования
